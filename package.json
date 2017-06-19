@@ -1,0 +1,17 @@
+{
+  "name": "bbh-audio-i-do-not-wish-to-survive",
+  "version": "1.0.0",
+  "description": "An audio player for a museum exhibition by Buddenbrookhaus in Lübeck, Germany",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-packager . bbh-audio-i-do-not-wish-to-survive --platform=win32 --arch=ia32"
+  },
+  "author": "bo@kbct.de",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.10",
+    "electron-packager": "^8.6.0"
+  }
+}
